@@ -1,0 +1,16 @@
+.Person {
+  width: 60%;
+  margin: auto;
+  background-color: bisque;
+  border: 1px solid rgb(243, 236, 236);
+  box-shadow: 0 2px 2px #eee;
+  padding: 16px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+  .Person {
+    width: 450px;
+    background-color: lightblue;
+  }
+}
